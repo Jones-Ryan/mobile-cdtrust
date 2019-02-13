@@ -4896,8 +4896,136 @@ body {
     line-height: 16.6rem;
     color: #fff;
     font-size: 1.27rem;
-    margin-top: 3.1rem;
-	background: url(../images/ditigal_banner.png) no-repeat center;
+	margin-top: 9.2rem;
+	/* ../images/ditigal_banner.png */
+	background: url(../images/ditigal_banner.png) no-repeat center center;
+	background-size:100% 100%;
+}
+.center-digital {
+    width: 100%;
+    height: 24.25rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.4rem 0 7.5rem 0;
+}
+.digital-font {
+    color: #666;
+	font-size: 1.2rem;
+	font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.digital_problem {
+    width: 100%;
+	padding:0 2.8rem;
+	display: flex;
+    display: -webkit-flex;
+     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.digital_problem>div {
+    width: 45%;
+    height: 8rem;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    /* padding: 1rem 1.5rem 2.5rem 1.8rem; */
+}
+/* .digital_problem1{
+	po
+} */
+.digital_problem1>img{
+	display: block;
+	width: 4rem;
+	height: 4rem;
+	margin:1rem auto;
+		
+}
+.easy-text{
+	text-align: center;
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+	color:#666;
+	font-weight: 500;
+	/* font-size:0.6rem; */
+}
+.marginBot{
+	margin-bottom: 1.5rem;
+}
+.data_banner {
+    width: 100%;
+    height: 9.6rem;
+	background: url(../images/data_banner.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+.our_support {
+    width: 100%;
+	/* height: 31rem; */
+	box-sizing: border-box;
+	padding-bottom:4rem;
+    background-color: #fff;
+}
+.centerOur {
+    width: 100%;
+    /* height: 31rem; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.5rem 2.5rem 1.4rem 3.5rem;
+}
+.support_type {
+    color: #666;
+    font-size: 1.2rem;
+    text-align: center;
+	margin-bottom: 1rem;
+	font-weight: 500;
+}
+.support-con {
+    color: #999;
+    font-size: .9rem;
+    margin-bottom: 0px;
+}
+.color_sup{
+	color:#333;
+	font-weight: 500;
+}
+
+.circle_tyle {
+	width: 100%;
+	box-sizing: border-box;
+	padding:0rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.circle_type1 {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.book1 {
+    background: url(../images/type1.png) no-repeat center;
+}
+.book2 {
+    background: url(../images/type2.png) no-repeat center;
+}
+.book3 {
+    background: url(../images/type3.png) no-repeat center;
+}
+.book4 {
+    background: url(../images/type4.png) no-repeat center;
+}
+.circle-con {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.03);
+    position: relative;
+}
+.circle_text {
+    color: #666;
+	font-size: .8rem;
+	font-weight: 500;
+   text-align: center;
 }
 
 
@@ -4905,6 +5033,66 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media handheld, only screen and (max-width:20em) {
+	body {
+		font-size: 0.7em;
+		-webkit-text-size-adjust: none;
+	}
+}
+/*  ipad  */
+@media handheld, only screen and (min-width:48em) {
+	.data_banner {
+		width: 100%;
+		height: 18.6rem;
+	}
+
+	.book1 {
+		background: url(../images/type1.png) no-repeat center;
+	}
+	.book2 {
+		background: url(../images/type2.png) no-repeat center;
+	}
+	.book3 {
+		background: url(../images/type3.png) no-repeat center;
+	}
+	.book4 {
+		background: url(../images/type4.png) no-repeat center;
+	}
+	.circle_tyle {
+		
+		box-sizing: border-box;
+		padding: 0rem 3.5rem;
+		
+	}
+	.circle_type1 {
+		width: 6rem;
+		height: 6rem;
+	}
+	.circle-con {
+		width: 6rem;
+		height: 6rem;
+	}
+	.circle_text {
+		font-size: 1rem;
+		
+	}
+}
 
 
 
