@@ -6356,6 +6356,7 @@ only screen and (max-width:48em) {
 	}
 }
 
+
 @media handheld,
 only screen and (max-width:48em) {
 	body {
@@ -6560,4 +6561,135 @@ only screen and (max-width:48em) {
 	font-size: .8rem;
 	font-weight: 500;
    text-align: center;
+}
+/*  新闻详情 */
+/*  新闻资讯详情  */
+.news-bgc2 {
+	background: url(../images/news-bgc.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.news-bgc1 {
+	background: url(../images/news-bgc.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.news-bgc3 {
+	background: url(../images/news-bgc.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.banner-sol-bg {
+    /* background: url(../images/bgc1.png) no-repeat center; */
+    background-color: transparent;
+    display: block;
+}
+.banner-sol {
+    margin-top: 9.2rem;
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    /* background: #086cea no-repeat center bottom; */
+}
+.content_detail {
+    width: 100%;
+
+	box-sizing: border-box;
+	padding:0 1.5rem;
+}
+.detail-title {
+    color: #000;
+	font-weight: 500;
+	font-size:1.1rem;
+	margin-bottom: 0!important;
+	margin-top: 0!important;
+}
+.change-line{
+	font-size:0.85rem;
+}
+.detail-con {
+    font-size: 1rem;
+    color: #333;
+}
+.news-text{
+	font-size:1rem;
+}
+.product-bass-title {
+    font-size:1.2rem ;
+    color: #fff;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  iphone5s  */
+@media handheld, only screen and (max-width:20em) {
+	body {
+		font-size: 0.7em;
+		-webkit-text-size-adjust: none;
+	}
+	.product-bass-title{
+		font-size:1rem;
+	}
+}
+/*  ipad  */
+@media handheld, only screen and (min-width:48em) {
+	.data_banner {
+		width: 100%;
+		height: 18.6rem;
+	}
+
+	.book1 {
+		background: url(../images/type1.png) no-repeat center;
+	}
+	.book2 {
+		background: url(../images/type2.png) no-repeat center;
+	}
+	.book3 {
+		background: url(../images/type3.png) no-repeat center;
+	}
+	.book4 {
+		background: url(../images/type4.png) no-repeat center;
+	}
+	.circle_tyle {
+		
+		box-sizing: border-box;
+		padding: 0rem 3.5rem;
+		
+	}
+	.circle_type1 {
+		width: 6rem;
+		height: 6rem;
+	}
+	.circle-con {
+		width: 6rem;
+		height: 6rem;
+	}
+	.circle_text {
+		font-size: 1rem;
+		
+	}
+	.change-line{
+		font-size:1rem;
+	}
 }
