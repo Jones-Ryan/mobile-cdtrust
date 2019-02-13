@@ -559,12 +559,12 @@ header.transparent.light #brand a {
 	background-size: 166px 52px;
 }
 
-header.fixed-header.transparent.light #brand a {
+/* header.fixed-header.transparent.light #brand a {
 	background-image: url(../images/logo.png);
 	background-size: 43px 46px;
 	width: 43px;
 	height: 46px;
-}
+} */
 
 header.fixed-header.transparent.light #brand a,
 header.fixed-header.transparent.light nav>ul>li>a {
@@ -6337,12 +6337,12 @@ only screen and (max-width:48em) {
 	.small-icon {
 		margin-top: 0px !important;
 	}
-	header.fixed-header.transparent.light #brand a {
+	/* header.fixed-header.transparent.light #brand a {
 		background-image: url(../images/logo.png);
 		background-size: 43px 46px;
 		width: 43px;
 		height: 46px;
-	}
+	} */
 	#BANVIDEO {
 		display: none;
 	}
