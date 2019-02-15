@@ -6420,6 +6420,8 @@ only screen and (max-width:48em) {
 
 .meta-post>a {
 	font-size: 1.2em;
+	color:#666!important;
+	font-weight: normal!important;
 }
 
 .btn-more {
@@ -6582,10 +6584,12 @@ only screen and (max-width:48em) {
     display: block;
 }
 .banner-sol {
-    margin-top: 9.2rem;
+    margin-top: 3.2rem;
     width: 100%;
     height: 15rem;
-    overflow: hidden;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 0 1rem;
     /* background: #086cea no-repeat center bottom; */
 }
 .content_detail {
@@ -6617,12 +6621,179 @@ only screen and (max-width:48em) {
     text-align: center;
     margin-top: 6rem;
 }
+/* 区块链 CoBass平台 */
+.solution-bgc {
+    background: url(../images/solution-img.png) no-repeat center;
+}
+.product-bass-title {
+	font-size: 1.5rem;
+	font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 6rem;
+}
+.bass-intro {
+	width: 80%;
+    height: 8rem;
+    margin: 0 auto;
+    margin-top: -2.5rem;
+}
+.bass-bgc-text {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #333;
+	padding:0.5rem 2rem 1.3rem 2rem;
+}
+.mt_none {
+    margin-top: 0;
+}
+.content_detail {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -1.5rem;
+}
+.product_show {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.benben-icon {
+    width: 1.2rem;
+    height: 1.5rem;
+    display: inline-block;
+    position: relative;
+    top: 0.3rem;
+}
+.show {
+    margin-left: 0.3rem;
+}
+.small-mr {
+    margin-right: 0.8rem;
+}
+.show {
+    font-size: 1.2rem;
+    color: #151e1e;
+	display: inline-block !important;
+	font-weight: 500;
+}
+.show-engglish {
+    font-size: 12px;
+    line-height: 48px;
+	color: #666666;
+	font-weight: 500;
+}
+.center-bass-man {
+    width: 100%;
+    height: 50rem;
+    background: url(../images/bass-man.png) no-repeat center center;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	padding:0.5rem 1rem 1.5rem 0.5rem;
+}
+.center-bass-man ul{
+	padding: 0!important;
+}
+.center-bass-man ul li {
+	list-style: none;
+    width: 100%;
+    min-height: 5.25rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0.8;
+    margin-bottom: 1.2rem;
+}
+.bass-title {
+    color: #333;
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin:0!important;
+}
+.bass-title-int {
+    color: #666;
+	font-size: 0.9rem;
+	font-weight: 500;
+	/* line-height: 25px; */
+	margin:0!important;
+}
+.bass-circle {
+    width: 100%;
+    background-color: #eee;
+    box-sizing: border-box;
+    padding-top: 1.3rem;
+    padding-bottom: 2.8rem;
+}
+/* 产品服务 */
+.banner-sol-bg2 {
+    background: url(../images/bgc2.png) no-repeat center;
+	background-color: transparent;
+	background-size: 100% 100%;
+	display: block;
+}
+.qukuailian{
+	width: 100%;
+	height: 4.5rem;
+	box-sizing: border-box;
+	padding:0.5rem 1.5em 0.6rem 0rem;
+	border-bottom:1px solid #dcdcdc;
+	margin-top:1.5rem;
+	position: relative;
+}
+.qukuailian img{
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.5rem;
+	position: relative;
+	top: 0.3rem;
+}
+.qukuailian a{
+	font-size: 1.2rem;
+    color: #151e1e;
+    display: inline-block !important;
+	font-weight: 500;
+	margin-left: 0.3rem;
+}
+.eng-tro{
+	font-size: 12px;
+    line-height: 48px;
+    color: #666666;
+	font-weight: 500;
+	position: absolute;
+	top: 1.7rem;
+	left: 1.8rem;
+	margin:0!important;
+}
+.mb5{
+	margin-bottom: 1.5rem;
+}
+.product-detail{
+	width: 100%;
+	height: 5rem;
+	box-sizing: border-box;
+	padding:0.5rem 1.8rem 0.5rem 1.5rem;
+	border:1px solid #37b5b6;
+	margin-bottom: 1.5rem;
+	background-color: #37b5b6;
+}
 
-
-
-
-
-
+.detail-title{
+	color:#fff;
+	font-size:1.1rem;
+}
+.detail-cont{
+	color:#fff;
+	margin-top: 0.2rem;
+	margin-bottom:0!important;
+	font-size:0.9rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
 
 
 
