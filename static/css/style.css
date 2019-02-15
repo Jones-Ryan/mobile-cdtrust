@@ -6688,7 +6688,7 @@ only screen and (max-width:48em) {
 }
 .center-bass-man {
     width: 100%;
-    height: 50rem;
+    min-height: 50rem;
     background: url(../images/bass-man.png) no-repeat center center;
 	background-size: 100% 100%;
 	box-sizing: border-box;
