@@ -6938,11 +6938,12 @@ ul li{
     line-height: 4.8rem;
     border-bottom: 1px solid #dcdcdc;
 	margin-bottom: 1rem;
+	font-weight: normal;
 }
 /* 关于我们 */
 .about-content{
 	box-sizing:border-box;
-	padding:0 1rem;
+	
 	height:172rem;
 	overflow:hidden;
 }
@@ -6955,7 +6956,7 @@ ul li{
     height: 26rem;
     background-color: #ffffff;
     border-radius: 0.6rem;
-	box-shadow: 0px 2px 10px 6px rgba(0, 0, 0, 0.04);
+	box-shadow: 0px 2px 10px 6px rgba(0, 0, 0, 0.01);
 	box-sizing:border-box;
 	padding-top:1rem;
 	padding-left:2rem;
@@ -6985,7 +6986,7 @@ ul li{
 	font-size:0.8rem;
 	font-weight: 500;
 	color:#333;
-	margin-left: 1.2rem;
+	margin-left: 0.5rem;
 }
 .actor-show{
 	line-height: 3rem;
@@ -7052,7 +7053,7 @@ ul li{
     margin-bottom: 0.8rem;
 }
 .company-content .company-mid {
-    height: 22rem;
+    height: 30rem;
     width: 100%;
 	background: url(../images/company-us.png) no-repeat center center;
 	background-size: 100% 100%;
@@ -7067,16 +7068,18 @@ ul li{
 /* 文字  北京共识... */
 .mine-items .text-s {
     width: 100%;
-    height: 14rem;
+	height: 20rem;
+	overflow:hidden;
     font-size: 1rem;
 	color: #ffffff;
 	box-sizing:border-box;
 	padding-top:0.3rem;
-	padding:0.3rem 0.1rem 0.1rem 0.1rem;
+	padding:1.5rem 1.5rem 0.1rem 1.5rem;
 }
 .mine-items .text-s .left_line {
     position: absolute;
-    left: 2.5rem;
+	left: 4.5rem;
+	top: 1rem;
     width: 18.75rem;
     height: 0.18rem;
     background: url(../images/across-line.png) no-repeat center;
@@ -7084,8 +7087,8 @@ ul li{
 }
 .mine-items .text-s .bottom_line {
     position: absolute;
-    top: 0.125rem;
-    left: 0.8rem;
+    top: 3.125rem;
+    left: 1rem;
     width: 0.18rem;
     height: 18.75rem;
     background: url(../images/shu-line.png) no-repeat center;
@@ -7093,7 +7096,7 @@ ul li{
 }
 .mine-items .text-s .right_line {
     position: absolute;
-    top: 14.7rem;
+    top: 18rem;
     left: 21.3rem;
     width: 300px;
     height: 3px;
@@ -7102,19 +7105,16 @@ ul li{
 }
 .mine-items .text-s .top_line {
     position: absolute;
-    top: 6rem;
+    top: 11rem;
     left: 22.4rem;
     width: 3px;
     height: 300px;
     background: url(../images/shu-line.png) no-repeat center;
     margin-top: -60px;
 }
-.mine-items .text-s .text-box-p {
-    /* margin: 20px 80px 0 80px; */
-}
+
 /*  我们的愿景  */
-.mine-items .text-s .company-center-box {
-   
+ .company-center-box {
     width: 100%;
    margin-bottom: 0!important;
     font-family: MicrosoftYaHei;
@@ -7126,26 +7126,26 @@ ul li{
   
 }
 /*  TOP1 */
-.mine-items .text-s .company-center-title1 {
+ .company-center-title1 {
    
     width: 100%;
-	margin: 0!important;
-    font-size: 1rem;
+	margin-top: 1rem;
+    font-size: 0.9rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 1.6px;
     color: #ffffff;
 }
-.mine-items .text-s .company-center-title2 {
-    
+ .company-center-title2 {
     width: 100%;
-    margin: 0!important;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: normal;
     font-stretch: normal;
     letter-spacing: 1.6px;
-    color: #ffffff;
+	color: #ffffff;
+	margin-top: -1rem;
 }
+
 
 
 
