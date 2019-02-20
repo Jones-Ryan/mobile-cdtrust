@@ -6557,7 +6557,7 @@ only screen and (max-width:48em) {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.02);
     position: relative;
 }
 .circle_text {
@@ -6694,7 +6694,7 @@ only screen and (max-width:48em) {
     background: url(../images/bass-man.png) no-repeat center center;
 	background-size: 100% 100%;
 	box-sizing: border-box;
-	padding:0.5rem 1rem 1.5rem 0.5rem;
+	padding:0.5rem 0.5rem 1rem 0.5rem;
 }
 .center-bass-man ul{
 	padding: 0!important;
@@ -6711,14 +6711,14 @@ only screen and (max-width:48em) {
 }
 .bass-title {
     color: #333;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: 500;
 	margin-bottom: 10px;
 	margin:0!important;
 }
 .bass-title-int {
     color: #666;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: 500;
 	/* line-height: 25px; */
 	margin:0!important;
@@ -6761,7 +6761,7 @@ only screen and (max-width:48em) {
 	margin-left: 0.3rem;
 }
 .eng-tro{
-	font-size: 12px;
+	font-size: 0.7rem;
     line-height: 48px;
     color: #666666;
 	font-weight: 500;
@@ -6804,8 +6804,8 @@ only screen and (max-width:48em) {
     display: block;
 }
 .content_detail .copper {
-    width: 80%;
-    min-height: 20rem;
+    width: 95%;
+    min-height: 18rem;
     box-sizing: border-box;
     padding: 1.3rem 1rem 1rem 1rem;
     border-radius: 10px;
@@ -6961,8 +6961,8 @@ ul li{
 	box-shadow: 0px 2px 10px 6px rgba(0, 0, 0, 0.01);
 	box-sizing:border-box;
 	padding-top:1rem;
-	padding-left:2rem;
-	padding-right:2rem;
+	padding-left:1rem;
+	padding-right:1rem;
 	margin-bottom: 2rem;
 }
 .flex{
@@ -6985,7 +6985,7 @@ ul li{
 	text-align: center;
 }
 .person-position{
-	font-size:0.8rem;
+	font-size:0.9rem;
 	font-weight: 500;
 	color:#333;
 	margin-left: 0.5rem;
@@ -7147,6 +7147,39 @@ ul li{
 	color: #ffffff;
 	margin-top: -1rem;
 }
+.activity-content,.map-content-center{
+	padding:0rem 1rem;
+	box-sizing:border-box;
+}
+/*  联系方式 */
+#container {
+    width: 100%;
+    height: 21rem;
+}
+.map-mid{
+	padding:1rem 1rem 0rem 1rem;
+}
+.map-position{
+	box-sizing: border-box;
+	padding:0rem 1rem 0rem 1rem;
+	width: 100%;
+}
+.map-code{
+	display: flex;
+	margin-top: 1rem;
+}
+.map-img{
+	width: 8rem;
+	height: 8rem;
+	margin-right: 1rem;
+}
+.mb-none{
+	margin-bottom: 0!important;
+}
+.concat-way p{
+	color:#333;
+	font-size:1rem;
+}
 
 
 
@@ -7157,16 +7190,117 @@ ul li{
 
 
 
-
-
+/*  galaxyS5  */
+@media handheld, only screen and (max-width:22.5em) {
+	.content_detail .copper{
+		min-height: 18rem;
+	}
+	.data_banner{
+		height: 8.6rem;
+	}
+	.digital_problem{
+		padding:0 1.9rem;
+	}
+	.easy-text{
+		font-size:0.8rem;
+	}
+	.concat-way p{
+		font-size:0.8rem;
+	}
+	.mine-items .text-s .top_line{
+		left:21rem;
+	}
+	.person-position{
+		margin-left: 1.5rem;
+	}
+}
 /*  iphone5s  */
 @media handheld, only screen and (max-width:20em) {
+	.content_detail .copper{
+		min-height: 17rem;
+	}
 	body {
 		font-size: 0.7em;
 		-webkit-text-size-adjust: none;
 	}
 	.product-bass-title{
 		font-size:1rem;
+	}
+	.content-center{
+		font-size:0.8rem;
+	}
+	.text-box-p{
+		font-size:0.9rem;
+	}
+	.mine-items .text-s .top_line{
+		left: 18.5rem;
+	}
+	.company-center-box{
+		font-size:1.3rem;
+	}
+	.concat-way p{
+		font-size:0.8rem;
+	}
+	
+}
+/* iphone678 */
+@media handheld, only screen and (min-width:23.4em) {
+	.person-position{
+		margin-left: 2.5rem;
+	}
+}
+/* iphone678plus */
+@media handheld, only screen and (min-width:25.8em) {
+	.person-position{
+		margin-left: 2.5rem;
+	}
+	.mine-items .text-s .top_line{
+		left: 24.5rem;
+	}
+	.mine-items .text-s{
+		padding:1.5rem 0.5rem 0.1rem 1.5rem;
+	}
+}
+/* ipad */
+@media handheld, only screen and (min-width:48em) {
+	.company-manage .company-people {
+		width: 100%;
+		height: 26rem;
+		background-color: #ffffff;
+		border-radius: 0.6rem;
+		box-shadow: 0px 2px 10px 6px rgba(0, 0, 0, 0.01);
+		box-sizing: border-box;
+		padding-top: 1rem;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-bottom: 2rem;
+	}
+	.center-con{
+		width: 85%;
+	}
+	.mine-items .text-s {
+		padding: 1.5rem 5.5rem 0.1rem 5.5rem;
+	}
+	.mine-items .text-s .top_line{
+		left: 44.5rem;
+		top: 3rem;
+	}
+	.mine-items .text-s .right_line{
+		top: 11rem;
+		left: 41.3rem;
+	}
+	.mine-items .text-s .bottom_line{
+		left: 3rem;
+	}
+	.mine-items .text-s{
+		height: 15rem;
+	}
+	.company-content .company-mid{
+		height: 26rem;
+	}
+	.map-code{
+		width: 50%;
+		margin:1rem auto;
 	}
 }
 /*  ipad  */
