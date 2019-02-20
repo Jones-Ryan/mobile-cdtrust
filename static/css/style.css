@@ -2729,8 +2729,8 @@ a.anchor {
 }
 
 .img-slider p {
-	padding-top: 3em;
-	padding-bottom: 2em;
+	/* padding-top: 3em; */
+	/* padding-bottom: 2em; */
 }
 
 .testimonial-img img {
@@ -2745,7 +2745,7 @@ a.anchor {
 .quote p {
 	margin-top: 0;
 	margin-bottom: 1em;
-	font-size: 1.2em;
+	font-size: 0.8em;
 	color: #fff;
 }
 
