@@ -5162,7 +5162,7 @@ only screen and (max-width:48em) {
 .text-light .owl-theme .owl-controls .owl-page span,
 .text-light .testimonial-slider.owl-theme .owl-controls .owl-page span,
 .text-light .custom-carousel.owl-theme .owl-controls .owl-page span {
-	background: #fff;
+	background: #37b5b6;
 	opacity: 0.3;
 	filter: Alpha(Opacity=30);
 }
@@ -5182,6 +5182,8 @@ only screen and (max-width:48em) {
 .text-light .owl-theme .owl-controls .owl-page.active span,
 .text-light .testimonial-slider.owl-theme .owl-controls .owl-page.active span,
 .text-light .custom-carousel.owl-theme .owl-controls .owl-page.active span {
+	width: 1.5em;
+	border-radius: 0.4rem;
 	opacity: 1;
 	filter: Alpha(Opacity=100);
 }
