@@ -7650,11 +7650,9 @@ ul li {
 	height: 3.5rem;
 	display: inline-block;
 	margin-bottom: 1.5rem;
-	box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.02); */
+	 */
 	width:46.3%; 
     height: 0.42rem;
-    background: rgba(255, 255, 255, 0.02);
-    border: 0.005rem solid rgba(242, 242, 242, 0.2);
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -7683,6 +7681,7 @@ ul li {
 	width: 100%;
 	height: 3.5rem;
 	display: inline-block;
+	box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.01);
 }
 
 /*  底部 */
@@ -7818,6 +7817,12 @@ only screen and (max-width:22.5em) {
 /*  iphone5s  */
 @media handheld,
 only screen and (max-width:20em) {
+	.news-lis ul li{
+		font-size:0.7rem;
+	}
+	.footer-box p{
+		font-size:0.6rem;
+	}
 	.content_detail .copper {
 		min-height: 17rem;
 	}

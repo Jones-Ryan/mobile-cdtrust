@@ -106,21 +106,13 @@
 
                                     </span>
                             </p>
-                            <div class="challange">
-                             
-                                <div id="intro-wrapp" class="row-img">
-                                        <div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">
-                                                                  
-                                                <div class="intro-item" style="background-image: url(static/images/banner1.png);">
-                                                </div>
-                                                <div class="intro-item" style="background-image: url(static/images/banner2.png);">
-                                                </div>
-                                                <div class="intro-item" style="background-image: url(static/images/banner3.png);">
-                                                </div>
-                                        </div>
-                                                                <!-- intro -->
+                            <div id="intro-wrap" style="height:10rem;">
+                                <div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true"
+                                  data-transition="fadeUp">
+                                 
                                 </div>
-                               
+                              </div>
+                            <div class="challange">
                                 <p class="challange-translate">
                     
                                 </p>
@@ -376,6 +368,7 @@ if (id == 1) {
         'smallTitle5':'',
         'newEcosyste':'',
         'valueProduct':[{"name":"区块链COBaaS平台","dataId":"1"},{"name":"DCFS区块链分布式文件系统","dataId":"2"}],
+        'carouselImg':['static/images/carousel1.png','static/images/carousel2.png','static/images/carousel3.png']
     };
     $(".product_show_normal").hide();
     $(".challange-normal").hide();
@@ -407,6 +400,7 @@ if (id == 1) {
         'smallTitle5': "我们支持的数据库类型",
         'newEcosyste': ['Oracle', 'MySQL', 'Hadoop'],
         'valueProduct': '',
+        'carouselImg':['static/images/carousel4.png','static/images/carousel5.png','static/images/carousel6.png']
     };
 } else if (id == 3) {
     arr1 = {
@@ -428,7 +422,7 @@ if (id == 1) {
         'scheme4':['跨域共享即时结算','数据共享记录可追溯'],
         'smallTitle5':"一站式积分权益流通",
         'newEcosyste':['积分统一发放','积分权益透明通兑','权益生命周期追溯'],
-        
+        'carouselImg':['static/images/carousel7.png','static/images/carousel8.png','static/images/carousel9.png']
     };
 
 }
@@ -447,7 +441,19 @@ $(".product_show-normal").html(arr1.smallTitle5);
 $(".challange-translate3").html(arr1.title3_content);
 // $(".challange-normal").html(arr1.newEcosyste);
 $(".solution-plan-banner").attr("src", arr1.banner);
+// <div class="intro-item" style="background-image: url(static/images/banner1.png);">
+//                                   </div>
+//                                   <div class="intro-item" style="background-image: url(static/images/banner2.png);">
+//                                   </div>
+//                                   <div class="intro-item" style="background-image: url(static/images/banner3.png);">
+//                                   </div>
+ //   轮播图
+ var carousel = '';
+for (var i = 0; i < arr1.carouselImg.length; i++) {
 
+        carousel += '<div class="intro-item"><img src="' + arr1.carouselImg[i] +'"></div>';
+}
+$("#intro").append(carousel);
 // 背景与挑战文字
 var str = '';
 for (var i = 0; i < arr1.background.length; i++) {
