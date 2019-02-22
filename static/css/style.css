@@ -7781,7 +7781,18 @@ ul li {
 	-ms-flex-align: center;
 	align-items: center;
 }
-
+.news-video{
+	width: 100%;
+	height:10rem;
+	box-sizing:border-box;
+	padding-left:10%;
+	padding-right:10%;
+	position: relative;
+}
+.video-click{
+	position: relative;
+	top:-.5rem;
+}
 /*  galaxyS5  */
 @media handheld,
 only screen and (max-width:22.5em) {
