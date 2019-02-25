@@ -769,7 +769,7 @@ nav ul.sub-menu>li:last-child>a {
 }
 
 #intro-small #intro-wrap {
-	height: 600px;
+	/* height: 600px; */
 }
 
 #intro {
@@ -7667,9 +7667,6 @@ ul li {
     flex-wrap: wrap;
     margin-bottom: 0.16rem;
 }
-
-
-
 .customers-article .logo-box span:first-child {
 	margin-top: 2rem;
 }
@@ -7801,7 +7798,9 @@ ul li {
 	margin-top:2rem;
 	margin-bottom:2rem;
 }
-
+.heighterW{
+	height: 13rem;
+}
 /*  galaxyS5  */
 @media handheld,
 only screen and (max-width:22.5em) {
@@ -7839,7 +7838,8 @@ only screen and (max-width:22.5em) {
 
 /*  iphone5s  */
 @media handheld,
-only screen and (max-width:20em) {
+only screen  and (min-width:20em){
+	
 	.eng-tro{
 		font-size:0.6rem;
 	}
@@ -7884,9 +7884,11 @@ only screen and (max-width:20em) {
 
 }
 
+
 /* iphone678 */
 @media handheld,
 only screen and (min-width:23.4em) {
+	
 	.person-position {
 		margin-left: 2.5rem;
 	}
@@ -7895,6 +7897,7 @@ only screen and (min-width:23.4em) {
 /* iphone678plus */
 @media handheld,
 only screen and (min-width:25.8em) {
+	
 	.person-position {
 		margin-left: 2.5rem;
 	}
@@ -7911,6 +7914,7 @@ only screen and (min-width:25.8em) {
 /* ipad */
 @media handheld,
 only screen and (min-width:48em) {
+	
 	.company-manage .company-people {
 		width: 100%;
 		height: 26rem;
@@ -7963,6 +7967,7 @@ only screen and (min-width:48em) {
 /*  ipad  */
 @media handheld,
 only screen and (min-width:48em) {
+	
 	.data_banner {
 		width: 100%;
 		height: 18.6rem;
