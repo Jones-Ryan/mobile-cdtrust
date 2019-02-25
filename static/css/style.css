@@ -7196,7 +7196,7 @@ ul li {
 .about-content {
 	box-sizing: border-box;
 
-	height: 172rem;
+	height: 173rem;
 	overflow: hidden;
 }
 
@@ -7796,6 +7796,11 @@ ul li {
 	position: relative;
 	top:-.5rem;
 }
+.map-content{
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
 /*  galaxyS5  */
 @media handheld,
 only screen and (max-width:22.5em) {
