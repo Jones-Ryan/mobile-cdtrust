@@ -759,10 +759,6 @@ nav ul.sub-menu>li:last-child>a {
 	width: 100%;
 }
 
-#intro-large #intro-wrap,
-#intro-idea #intro-wrap {
-	height: 800px;
-}
 
 #intro-mid #intro-wrap {
 	height: 700px;
@@ -6445,14 +6441,7 @@ only screen and (max-width:48em) {
 		padding-top: 30%;
 	}
 
-	#intro-wrap,
-	#intro-large #intro-wrap,
-	#intro-small #intro-wrap,
-	#intro-idea #intro-wrap,
-	#intro-mid #intro-wrap {
-		height: 400px;
-	}
-
+	
 	.column.fifth {
 		width: 48.5%
 	}
@@ -7717,9 +7706,9 @@ ul li {
 	display: inline-block;
 	position: relative;
 	top: 4px;
-	width: 0.6rem;
+	width: 0.7rem;
 	height: 1.5rem;
-	margin-right: 0.6rem;
+	margin-right: 0.2rem;
 	background: url(../images/location-icon.png) no-repeat 0px 8px;
 }
  .phoneNum {
@@ -7798,12 +7787,14 @@ ul li {
 	margin-top:2rem;
 	margin-bottom:2rem;
 }
-.heighterW{
-	height: 13rem;
+
+.setHeight{
+	height:7rem;	
 }
 /*  galaxyS5  */
 @media handheld,
 only screen and (max-width:22.5em) {
+	
 	.content-center{
 		margin-top:0.2rem;
 	}
@@ -7839,23 +7830,38 @@ only screen and (max-width:22.5em) {
 /*  iphone5s  */
 @media handheld,
 only screen  and (min-width:20em){
-	
+	#intro-wrap,
+	#intro-large #intro-wrap,
+	#intro-small #intro-wrap,
+	#intro-idea #intro-wrap,
+	#intro-mid #intro-wrap {
+	height: 12rem;
+	}
+	#intro-large #intro-wrap,
+	#intro-idea #intro-wrap {
+	height: 12rem;
+	}
+	.normalTag{
+		display:block;
+		width:100%;
+		font-size:0.14rem;
+		text-align: center;
+		color:#aaa;
+
+	}
+	.footer-div p{
+		font-size:0.5rem;
+		transform: scale(0.5)
+	}
 	.eng-tro{
 		font-size:0.6rem;
 	}
 	.news-lis ul li{
 		font-size:0.7rem;
 	}
-	.footer-box p{
-		font-size:0.6rem;
-	}
+	
 	.content_detail .copper {
 		min-height: 17rem;
-	}
-
-	body {
-		font-size: 0.7em;
-		-webkit-text-size-adjust: none;
 	}
 
 	.product-bass-title {
@@ -7911,6 +7917,21 @@ only screen and (min-width:25.8em) {
 	}
 }
 
+@media handheld,
+only screen and (min-width:25.6875em) {
+	
+	#intro-wrap,
+	#intro-large #intro-wrap,
+	#intro-small #intro-wrap,
+	#intro-idea #intro-wrap,
+	#intro-mid #intro-wrap {
+	height: 15rem;
+	}
+	#intro-large #intro-wrap,
+	#intro-idea #intro-wrap {
+	height: 15rem;
+	}
+}
 /* ipad */
 @media handheld,
 only screen and (min-width:48em) {
@@ -7967,7 +7988,17 @@ only screen and (min-width:48em) {
 /*  ipad  */
 @media handheld,
 only screen and (min-width:48em) {
-	
+	#intro-wrap,
+	#intro-large #intro-wrap,
+	#intro-small #intro-wrap,
+	#intro-idea #intro-wrap,
+	#intro-mid #intro-wrap {
+	height: 28rem;
+	}
+	#intro-large #intro-wrap,
+	#intro-idea #intro-wrap {
+	height: 28rem;
+	}
 	.data_banner {
 		width: 100%;
 		height: 18.6rem;
