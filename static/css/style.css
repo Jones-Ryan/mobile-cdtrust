@@ -7722,7 +7722,7 @@ ul li {
 }
 
 .footer-box p {
-	line-height: 2rem;
+	
 	height: 2rem;
 	margin-bottom: 0.6rem;
 	color:#aaa;
@@ -7894,7 +7894,17 @@ only screen  and (min-width:20em){
 /* iphone678 */
 @media handheld,
 only screen and (min-width:23.4em) {
-	
+	#intro-wrap,
+	#intro-large #intro-wrap,
+	#intro-small #intro-wrap,
+	#intro-idea #intro-wrap,
+	#intro-mid #intro-wrap {
+	height: 13rem;
+	}
+	#intro-large #intro-wrap,
+	#intro-idea #intro-wrap {
+	height: 13rem;
+	}
 	.person-position {
 		margin-left: 2.5rem;
 	}
