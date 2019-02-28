@@ -7840,6 +7840,8 @@ only screen  and (min-width:20em){
 	#intro-large #intro-wrap,
 	#intro-idea #intro-wrap {
 	height: 12rem;
+	margin-top: 3.5rem;
+	
 	}
 	.normalTag{
 		display:block;
@@ -7940,6 +7942,8 @@ only screen and (min-width:25.6875em) {
 	#intro-large #intro-wrap,
 	#intro-idea #intro-wrap {
 	height: 15rem;
+	margin-top: 2.5rem;
+	
 	}
 }
 /* ipad */
